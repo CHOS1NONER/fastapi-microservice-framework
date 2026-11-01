@@ -1,0 +1,225 @@
+#################################
+# Python
+#################################
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# cursor
+.cursor/
+.cursorrules
+
+# Python metadata
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+
+#################################
+# FastAPI / Backend
+#################################
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+*.pid
+
+# Upload files
+uploads/
+media/
+storage/
+
+
+#################################
+# Database
+#################################
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+
+#################################
+# Celery
+#################################
+
+celerybeat-schedule
+celerybeat.pid
+
+
+#################################
+# Redis
+#################################
+
+dump.rdb
+
+
+#################################
+# Node / Vue
+#################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Vue cache
+.vite/
+.cache/
+
+# Nuxt
+.nuxt/
+.output/
+
+
+#################################
+# IDE
+#################################
+
+# VS Code
+.vscode/
+
+# Cursor
+.cursor/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+
+#################################
+# macOS
+#################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+*.swp
+*.swo
+
+
+#################################
+# Docker
+#################################
+
+docker-compose.override.yml
+
+# Docker volumes
+docker-volumes/
+
+
+#################################
+# Kubernetes
+#################################
+
+*.secret.yaml
+*.secret.yml
+
+
+#################################
+# Test / Coverage
+#################################
+
+coverage/
+.coverage
+
+
+#################################
+# Temporary
+#################################
+
+tmp/
+temp/
+*.tmp
+*.bak
+
+
+#################################
+# Security
+#################################
+
+*.pem
+*.key
+*.crt
+
+# Local config
+config.local.*
+settings.local.*
+
+
+#################################
+# OS / Backup
+#################################
+
+*.orig
+*.rej
+*~

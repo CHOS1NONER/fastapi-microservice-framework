@@ -1,0 +1,9 @@
+from enum import IntEnum
+
+
+class InventoryErrorCode(IntEnum):
+    NOT_FOUND = 40001
+    ALREADY_EXISTS = 40002
+    INVALID_QUANTITY = 40003
+    INSUFFICIENT_QUANTITY = 40004
+    INSUFFICIENT_FROZEN = 40005
